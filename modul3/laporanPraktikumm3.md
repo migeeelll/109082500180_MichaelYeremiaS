@@ -39,7 +39,7 @@ func main(){
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul3/output/soal1.png)
 [penjelasan]
-code ini memindah kan 
+code ini digunakan untuk menghitung permutasi dan kombinasi untuk bantuin jonas (walaupun sebenernya gak mau :p) inputan 4 bilangan asli keluaran nya hasil dari permutasi dan kombinasi
 
 ### 2. [Soal]
 #### soal2.go
@@ -74,8 +74,9 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/tree/main/modul3)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul3/output/soal2.png)
 [penjelasan]
+code ini digunakan untuk menghitung 3 buah fungsi yg sudah tersedia. inpitan nya merupakan 3 buah bilangan bulat. keluaran merupakan hasil perkalian2 fungsi tersebut.
 
 ### 3. [Soal]
 #### soal3.go
@@ -122,3 +123,4 @@ func main() {
 ##### Output 
 ![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul3/output/soal2.png)
 [penjelasan]
+sama kek di soal
