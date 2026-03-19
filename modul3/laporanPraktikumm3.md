@@ -37,7 +37,7 @@ func main(){
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul3/output/soal1.png)
 [penjelasan]
 code ini memindah kan 
 
@@ -74,7 +74,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/tree/main/modul3)
 [penjelasan]
 
 ### 3. [Soal]
@@ -120,5 +120,5 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul3/output/soal2.png)
 [penjelasan]
