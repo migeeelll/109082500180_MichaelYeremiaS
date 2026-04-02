@@ -1,4 +1,4 @@
-# <h1 align="center">Laporan Praktikum Modul 2 - REVIEW ALGORITMA DAN PEMROGRAMAN 1 </h1>
+# <h1 align="center">Laporan Praktikum Modul 4 - PROSEDUR </h1>
 <p align="center">Michael yeremia s - 109082500180</p>
 
 ## Unguided 
@@ -11,32 +11,37 @@ package main
 
 import "fmt"
 
+func f(n int) int {
+	h := 1
+	for i := 2; i <= n; i++ {
+		h *= i
+	}
+	return h
+}
+
+func permutasi(n, r int) int {
+	return f(n) / f(n-r)
+}
+
+func kombinasi(n, r int) int {
+	return f(n) / (f(r) * f(n-r))
+}
+
 func main() {
-	var (
-		satu, dua, tiga string
-		temp            string
-	)
-	fmt.Print("Masukan input string: ")
-	fmt.Scanln(&satu)
-	fmt.Print("Masukan input string: ")
-	fmt.Scanln(&dua)
-	fmt.Print("Masukan input string: ")
-	fmt.Scanln(&tiga)
-	fmt.Println("Output awal = " + satu + " " + dua + " " + tiga)
-	temp = satu
-	satu = dua
-	dua = tiga
-	tiga = temp
-	fmt.Println("Output akhir = " + satu + " " + dua + " " + tiga)
+	var a, b, c1, d int
+	fmt.Scan(&a, &b, &c1, &d)
+
+	fmt.Println(permutasi(a, c1), kombinasi(a, c1))
+	fmt.Println(permutasi(b, d), kombinasi(b, d))
 }
 
 ```
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image.png)
 [penjelasan]
-code ini memindah kan 
+ya gitu deh liat soalnya aja kak
 
 ### 2. [Soal]
 #### tugas2minggu2.go
@@ -44,34 +49,56 @@ code ini memindah kan
 ```go
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
-func main() {
-	var (
-		a,b,c,d string
-		h,h2 bool
-	)
-	h2 = true
-	for i:=1;i<=5;i++{
-		fmt.Printf("Percobaan %d : ",i)
-		fmt.Scan(&a,&b,&c,&d)
-		if a=="merah"&&b=="kuning"&&c=="hijau"&&d=="ungu"{
-			h = true
-		}else{
-			h = false
+func hitung(s *int, t *int) {
+	*t = 0
+	*s = 0
+	for i := 0; i < 8; i++ {
+		var x int
+		fmt.Scan(&x)
+		if x <= 300 {
+			*s++
+			*t += x
+		} else {
+			*t += 301
 		}
-		h2 = h && h2
 	}
-	fmt.Printf("Hasil: %t",h2)
 }
 
+func main() {
+	var n string
+	maxS, minT := -1, 1<<30
+	var win string
+
+	for {
+		fmt.Scan(&n)
+		if n == "Selesai" {
+			break
+		}
+
+		var s, t int
+		hitung(&s, &t)
+
+		if s > maxS || (s == maxS && t < minT) {
+			maxS = s
+			minT = t
+			win = n
+		}
+	}
+
+	fmt.Println(win, maxS, minT)
+}
 
 ```
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image%20copy.png)
 [penjelasan]
+buat ngitung scor(kata soal)
 
 ### 3. [Soal]
 #### tugas3minggu2.go
@@ -81,43 +108,29 @@ package main
 
 import "fmt"
 
-func main() {
-	var (
-		a,b,c,d,e,f int64
-		
-	)
-	fmt.Print("Masukan berat(g): ")
-	fmt.Scan(&a)
-
-	b = a / 1000
-	c = a % 1000
-	d = b * 10000
-	e=0
-
-	if c>=500{
-			e = c * 5
-		}else {
-			e = c * 15
+func cetakDeret(n int) {
+	for n != 1 {
+		fmt.Print(n, " ")
+		if n%2 == 0 {
+			n = n / 2
+		} else {
+			n = 3*n + 1
 		}
-
-	if b < 10{
-		f = d + e 
-	}else{
-		f = d
 	}
+	fmt.Print(1)
+}
 
-	
-	fmt.Printf("Detail berat: %dkg + %dg\n",b,c)
-	fmt.Printf("Detail biaya: Rp. %d + Rp. %d\n",d,e)
-	fmt.Printf("Total biaya: Rp. %d\n",f)
+func main() {
+	var n int
 
-	
-	}
+	fmt.Scan(&n)
 
-
+	cetakDeret(n)
+}
 ```
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/shellyneu/103112430114_Shellyn/blob/main/modul1/output/output-soal1.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image%20copy%202.png)
 [penjelasan]
+deret bilangan kalo genap bagi dua,kalo ganjil kali 3 tambah 1 (coba liat soalnya)
