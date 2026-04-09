@@ -35,7 +35,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul5/output/Screenshot%202026-04-10%20001652.png)
 [penjelasan]
 ya gitu deh liat soalnya aja kak (Deret fibonacci adalah sebuah deret dengan nilai suku ke-0 dan ke-1 adalah 0 dan 1, dan nilai
 suku ke-n selanjutnya adalah hasil penjumlahan dua suku sebelumnya. Secara umum dapat
@@ -74,7 +74,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image%20copy.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul5/output/Screenshot%202026-04-10%20001718.png)
 [penjelasan]
 sebuah program yang digunakan untuk menampilkan pola bintang berikut ini dengan menggunakan fungsi rekursif. N adalah masukan dari user.
 
@@ -105,7 +105,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image%20copy%202.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul5/output/Screenshot%202026-04-10%20001932.png)
 [penjelasan]
 program yang mengimplementasikan rekursif untuk menampilkan faktor bilangan dari suatu N, atau bilangan yang apa saja yang habis membagi N.
 
@@ -140,7 +140,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image%20copy%202.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul5/output/Screenshot%202026-04-10%20001953.png)
 [penjelasan]
 program yang mengimplementasikan rekursif untuk menampilkan barisan bilangan tertentu.
 
@@ -171,7 +171,7 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image%20copy%202.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul5/output/Screenshot%202026-04-10%20002017.png)
 [penjelasan]
 program yang mengimplementasikan rekursif untuk menampilkan barisan bilangan ganjil.
 
@@ -203,6 +203,6 @@ func main() {
 ### Output Unguided :
 
 ##### Output 
-![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul4/output/image%20copy%202.png)
+![Screenshot Output Unguided 1_1](https://github.com/migeeelll/109082500180_MichaelYeremiaS/blob/main/modul5/output/Screenshot%202026-04-10%20002036.png)
 [penjelasan]
 program yang mengimplementasikan rekursif untuk mencari hasil pangkat dari dua buah bilangan.
